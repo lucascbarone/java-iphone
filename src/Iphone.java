@@ -65,10 +65,8 @@ public class Iphone implements MusicPlayer, InternetBrowser, Phone {
         return battery;
     }
 
-    public float checkStorageSpace() {
-        return 64.0f;
-    }
-
+    public String checkStorageSpace() {return "128GB"; }
+    
     //InternetBrowser Methods
     @Override
     public void connectInternet() {
