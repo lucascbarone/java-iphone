@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" modified="2023-10-19T05:02:15.629Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="T7YP0B9hfJ-ft0z9BvSC" version="21.6.8" type="device">
+  <diagram name="Página-1" id="XsS0Q9QLi4ss-mSVZH7l">
+    <mxGraphModel dx="704" dy="358" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UCXEQv75nsvENK-q7Ojl-17" value="Iphone" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="60" width="210" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="UCXEQv75nsvENK-q7Ojl-18" value="&lt;div&gt;+ serialNumber : String&lt;/div&gt;&lt;div&gt;+ model : String&lt;/div&gt;&lt;div&gt;+ color : String&lt;/div&gt;&lt;div&gt;+ storage : int&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ screenSize : float&lt;/div&gt;&lt;div&gt;+ conectivity : String&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+ battery : int&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="UCXEQv75nsvENK-q7Ojl-17">
+          <mxGeometry y="26" width="210" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="UCXEQv75nsvENK-q7Ojl-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="UCXEQv75nsvENK-q7Ojl-17">
+          <mxGeometry y="140" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="UCXEQv75nsvENK-q7Ojl-20" value="&lt;div&gt;+ checkStorageSpace() : float&lt;/div&gt;&lt;div&gt;+ playMusic() : void&lt;/div&gt;&lt;div&gt;+ pauseMusic() : void&lt;/div&gt;&lt;div&gt;+ selectMusic() : void&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ fastForward() : void&lt;/div&gt;+ rewind() : void &lt;/div&gt;&lt;div&gt;&lt;div&gt;+ turnOn() : void&lt;/div&gt;+ turnOff() : void&lt;/div&gt;&lt;div&gt;+ call() : void&lt;/div&gt;&lt;div&gt;+ answerPhoneCall() : void&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;+ rejectPhoneCall() : void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ voiceMail() : void&lt;/div&gt;&lt;div&gt;+ sendMessage() : String&lt;/div&gt;+ receiveMessage() : String&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+ connectInternet : void&lt;/div&gt;+ navegateToUrl : String&lt;div&gt;+ showPage() : void&lt;/div&gt;&lt;div&gt;+ addNewTab() : void&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ refreshPage() : void&lt;/div&gt;&lt;div&gt;+ closePage() : void&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="UCXEQv75nsvENK-q7Ojl-17">
+          <mxGeometry y="148" width="210" height="302" as="geometry" />
+        </mxCell>
+        <mxCell id="UCXEQv75nsvENK-q7Ojl-25" value="MusicPlayer" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="590" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="UCXEQv75nsvENK-q7Ojl-26" value="&lt;div&gt;+ playMusic() : void&lt;/div&gt;&lt;div&gt;+ pauseMusic() : void&lt;/div&gt;&lt;div&gt;+ selectMusic() : void&lt;/div&gt;&lt;div&gt;+ fastForward() : void&lt;/div&gt;&lt;div&gt;+ rewind() : void &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="UCXEQv75nsvENK-q7Ojl-25">
+          <mxGeometry y="26" width="140" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="UCXEQv75nsvENK-q7Ojl-29" value="Phone" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="590" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="UCXEQv75nsvENK-q7Ojl-32" value="&lt;div&gt;+ turnOn() : void&lt;/div&gt;&lt;div&gt;+ turnOff() : void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ call() : void&lt;/div&gt;&lt;div&gt;+ answerPhoneCall() : void&lt;/div&gt;&lt;div&gt;+ rejectPhoneCall() : void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ voiceMail() : void&lt;/div&gt;&lt;div&gt;+ sendMessage() : String&lt;/div&gt;&lt;div&gt;+ receiveMessage() : String&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="UCXEQv75nsvENK-q7Ojl-29">
+          <mxGeometry y="26" width="180" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="UCXEQv75nsvENK-q7Ojl-34" value="InternetBrowser" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="590" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="UCXEQv75nsvENK-q7Ojl-35" value="&lt;div&gt;+ connectInternet : void&lt;/div&gt;+ navegateToUrl : String&lt;div&gt;+ showPage() : void&lt;/div&gt;&lt;div&gt;+ addNewTab() : void&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ refreshPage() : void&lt;/div&gt;&lt;div&gt;+ closePage() : void&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="UCXEQv75nsvENK-q7Ojl-34">
+          <mxGeometry y="26" width="180" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="UCXEQv75nsvENK-q7Ojl-42" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.001;exitY=0.999;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UCXEQv75nsvENK-q7Ojl-20" target="UCXEQv75nsvENK-q7Ojl-25">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="560" y="440" as="sourcePoint" />
+            <mxPoint x="190" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UCXEQv75nsvENK-q7Ojl-47" value="Implements" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UCXEQv75nsvENK-q7Ojl-42">
+          <mxGeometry x="-0.117" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UCXEQv75nsvENK-q7Ojl-43" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1.003;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UCXEQv75nsvENK-q7Ojl-20" target="UCXEQv75nsvENK-q7Ojl-29">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="420" y="520" as="sourcePoint" />
+            <mxPoint x="470" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UCXEQv75nsvENK-q7Ojl-45" value="Implements" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UCXEQv75nsvENK-q7Ojl-43">
+          <mxGeometry x="-0.1772" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UCXEQv75nsvENK-q7Ojl-44" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1.013;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UCXEQv75nsvENK-q7Ojl-20" target="UCXEQv75nsvENK-q7Ojl-34">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="360" y="520" as="sourcePoint" />
+            <mxPoint x="660" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UCXEQv75nsvENK-q7Ojl-46" value="Implements" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UCXEQv75nsvENK-q7Ojl-44">
+          <mxGeometry x="-0.1275" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
